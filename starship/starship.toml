@@ -1,0 +1,19 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = true
+
+format = """$all"""
+right_format = """$time"""
+
+command_timeout = 2000
+
+[character]
+success_symbol = "[➜](bold green)"
+
+[time]
+disabled = false
+format = '[\[ $time \]](bold black) '
+
+[cmd_duration]
+min_time = 0
+show_milliseconds = true
