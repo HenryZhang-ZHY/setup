@@ -6,8 +6,8 @@ $SoftwareMap = @{
     "VSCode" = "Microsoft.VisualStudioCode";
     "WeChat" = "Tencent.WeChat";
     "Steam" = "Valve.Steam";
-    "Snipaste" = "9P1WXPKB68KX";
     "JetBrainsMonoNerdFont" = "DEVCOM.JetBrainsMonoNerdFont";
+    "7Zip" = "7zip.7zip.Alpha.msi";
 }
 
 function List {
