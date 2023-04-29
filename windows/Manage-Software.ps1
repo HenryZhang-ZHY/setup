@@ -8,6 +8,7 @@ $SoftwareMap = @{
     "Steam" = "Valve.Steam";
     "JetBrainsMonoNerdFont" = "DEVCOM.JetBrainsMonoNerdFont";
     "7Zip" = "7zip.7zip.Alpha.msi";
+    "PowerToys" = "Microsoft.PowerToys";
 }
 
 function List {
