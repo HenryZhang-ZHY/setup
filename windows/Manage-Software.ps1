@@ -7,6 +7,7 @@ $SoftwareMap = @{
     "WeChat" = "Tencent.WeChat";
     "Steam" = "Valve.Steam";
     "Snipaste" = "9P1WXPKB68KX";
+    "JetBrainsMonoNerdFont" = "DEVCOM.JetBrainsMonoNerdFont";
 }
 
 function List {
