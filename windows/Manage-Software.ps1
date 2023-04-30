@@ -9,6 +9,7 @@ $SoftwareMap = @{
     "JetBrainsMonoNerdFont" = "DEVCOM.JetBrainsMonoNerdFont";
     "7Zip" = "7zip.7zip.Alpha.msi";
     "PowerToys" = "Microsoft.PowerToys";
+    "Logseq" = "Logseq.Logseq";
 }
 
 function List {
