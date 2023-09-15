@@ -6,6 +6,8 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 # Alias
 Set-Alias ll ls
 
+Set-Alias k kubectl
+
 # Git Alias
 Function GitStatus {git status}
 Set-Alias gs GitStatus
