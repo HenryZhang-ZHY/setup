@@ -11,11 +11,10 @@ if ($SoftLinkThisRepoToConfigFolder) {
 
 if ($InstallPSModules) {
   Install-Module -Name z -Force
-  Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 }
 
 if ($SetPSProfile) {
-  Set-Content -Path $PROFILE.CurrentUserCurrentHost -Value '. $env:USERPROFILE\.config\powershell\user_profile.ps1'  
+  Set-Content -Path $PROFILE.CurrentUserCurrentHost -Value ". '$env:USERPROFILE\.config\powershell\user_profile.ps1'"
 }
 
 if ($SetEdge) {

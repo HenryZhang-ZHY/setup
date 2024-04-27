@@ -1,15 +1,14 @@
 $SoftwareMap = @{
     "PowerShell" = "Microsoft.PowerShell";
-    "Python 3.10" = "Python.Python.3.10";
     "Git" = "Git.Git";
     "Starship" = "Starship.Starship";
     "VSCode" = "Microsoft.VisualStudioCode";
     "WeChat" = "Tencent.WeChat";
     "Steam" = "Valve.Steam";
     "JetBrainsMonoNerdFont" = "DEVCOM.JetBrainsMonoNerdFont";
-    "7Zip" = "7zip.7zip.Alpha.msi";
+    "7Zip" = "7zip.7zip";
     "PowerToys" = "Microsoft.PowerToys";
-    "Logseq" = "Logseq.Logseq";
+    "Obsidian" = "Obsidian.Obsidian";
 }
 
 function List {

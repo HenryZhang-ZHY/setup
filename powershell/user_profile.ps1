@@ -1,7 +1,5 @@
 # PSReadLine
 Import-Module PSReadLine
-Set-PSReadLineOption -PredictionSource History
-Set-PSReadLineOption -PredictionViewStyle ListView
 
 # Alias
 Set-Alias ll ls
